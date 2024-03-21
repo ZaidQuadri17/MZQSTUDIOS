@@ -854,6 +854,26 @@ section {
   color: #ffb727;
 }
 
+/* Carousel customization */
+.testimonials .carousel-item {
+    height: 600px; /* Adjust based on your preference */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* Optional: Adjust the position and size of the carousel controls if needed */
+.testimonials .carousel-control-prev, 
+.testimonials .carousel-control-next {
+    filter: invert(100%); /* Makes the arrows more visible on darker backgrounds */
+}
+
+/* Optional: Styles for the carousel indicators */
+.testimonials .carousel-indicators [data-bs-target] {
+    background-color: #fff; /* Indicator color */
+}
+
+
 /*--------------------------------------------------------------
 # Testimonials
 --------------------------------------------------------------*/
