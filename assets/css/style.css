@@ -898,6 +898,7 @@ section {
   margin-bottom: 40px;
 }
 
+/* No changes needed for the carousel overflow since it's handled by Bootstrap */
 .testimonials .testimonials-carousel,
 .testimonials .testimonials-slider {
   overflow: hidden;
@@ -914,6 +915,7 @@ section {
   border: 6px solid rgba(255, 255, 255, 0.15);
   margin: 0 auto;
 }
+
 
 .testimonials .testimonial-item h3 {
   font-size: 20px;
